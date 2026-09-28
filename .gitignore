@@ -1,0 +1,31 @@
+# ===== FRONTEND (Node.js / Vite) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ===== BACKEND (Java / Maven) =====
+backend/target/
+backend/.settings/
+backend/.classpath
+backend/.project
+*.class
+*.jar
+*.war
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Claude Code =====
+.claude/
